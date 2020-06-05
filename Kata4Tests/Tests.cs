@@ -42,7 +42,4 @@ namespace Kata4Tests
             Assert.Equal(probablilityOfNextState, p.ProbabilityOf(nextState));
         }
     }
-
-    
 }
-

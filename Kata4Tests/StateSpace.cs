@@ -39,5 +39,18 @@ namespace Kata4Tests
             return result;
         }
     }
+
+    public class State : Dictionary<string, double>
+    {
+        public double ProbabilityOf(string state)
+        {
+            if (this.ContainsKey(state))
+            {
+                return this[state];
+            }
+
+            return 0;
+        }
+    }
 }
 
